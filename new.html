@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            background-color: #ffefef;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        .navbar {
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 30px;
+            font-weight: bold;
+            color: #cf2e2e;
+            text-decoration: none;
+        }
+
+        .menu {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .menu li {
+            margin: 0 10px;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .hire {
+            padding: 13px;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: #cf2e2e;
+            text-decoration: none;
+            border: none;
+            outline: none;
+            color: white;
+            font-size: large;
+            font-weight: bold;
+        }
+        .hire:hover{
+            border: 1px solid #cf2e2e;
+            background-color: white;
+            color: black;
+            transition: 0.20s;
+        }
+
+        .icon-container {
+            display: inline-block;
+        }
+
+        .icon-container i {
+            display: inline-block;
+            margin-right: 10px;
+            font-size: 24px;
+            margin-top: 30px;
+        }
+
+        .header {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        i {
+            color: #3f3c3c;
+        }
+
+        .header h1 {
+            font-size: 70px;
+            margin-top: 150px;
+            color: rgb(61, 59, 59);
+        }
+
+        strong {
+            font-size: 60px;
+            margin-top: 20px;
+            padding: 10px;
+            color: rgb(61, 59, 59);
+        }
+
+        strong:hover {
+            background-color: #cf2e2e;
+            color: white;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+
+        .Learn {
+            padding: 15px;
+            background-color: #cf2e2e;
+            border: none;
+            color: white;
+            font-weight: bold;
+            margin-top: 30px;
+            margin-left: 165px;
+        }
+        .Learn:hover{
+            border: 1px solid #cf2e2e;
+            background-color: white;
+            color: black;
+            transition: 0.20s;
+
+        }
+
+        .object-container {
+            position: relative;
+            width: 450px;
+            height: 500px;
+            border: px solid #cf2e2e;
+            border-radius: 5%;
+            overflow: hidden;
+            float: right;
+            margin-top: -300px;
+            margin-right: 165px;
+        }
+
+        .object-container img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: auto;
+        }
+
+        .about {
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
+            margin-top: 200px;
+            margin-left: 50%;
+        }
+
+        .p1 {
+            align-items: center;
+            justify-content: center;
+            display: inline;
+            font-size: 25px;
+            font-weight: bold;
+            color: #cf2e2e;
+            border: none;
+            border-bottom: 2px solid #cf2e2e;
+        }
+        .dis{
+            text-align: center;
+            align-items: center;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        .text{
+            margin-left: 165px;
+            margin-top: 50px;
+            color: rgb(61, 59, 59);
+           
+        }
+        .text,p,ul,li{
+            font-size: 25px;
+        }
+        .FACTS{
+            font-size: bold;
+            font-size: 35px;
+            color: #cf2e2e;
+        }
+        .info{
+            height: 250px;
+            float: right;
+            margin-top: -230px;
+            margin-right: 165px;
+        }
+        a:hover{
+            color: #cf2e2e;
+        }
+    </style>
+</head>
+
+<boy>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Annu_dev1</a>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <button class="hire">Hire me</button>
+        </div>
+    </nav>
+    <div class="header">
+        <h1><strong>I am a </strong><br>web-devloper</h1>
+        <div class="icon-container ">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+    </div>
+    <button class="Learn">Learn more</button>
+    <div class="object-container">
+        <img src="IMG20230305133232.png" alt="image description">
+    </div>
+    <div class="about">
+        <p class="p1">About me</p>
+    </div>
+    <div class="dis">
+        <p>Hey this is anurag and i am a frontend devloper with the passion of creating good and resposive website</p>
+    </div>
+
+    <div class="text">
+        <p class="FACTS">SOME MORE FACTS</p>
+        <p>I have knowledge about some most demanding and trandig skills</p>
+        <ul>
+            <li>Html(it stand for hyper text markup language)</li>
+            <li>Css(it stand for cascading style sheet)</li>
+            <li>Js(it stand for javascript )</li>
+            <li>Boots(it stand for bootsrap and it is a framewok)</li>
+            <li>react(it stand for java script framewok)</li>
+            <li>figma(it stand for basically ui ux tool)</li>
+        </ul>
+        <img src="full-stack-web-developer-1024x1024.jpg" class="info">
+    </div>
+
+    </body>
+
+</html>
