@@ -8,15 +8,21 @@
     <title>Porfolio website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-        body{
+        /* -------BACKGROUND COLOR------ */
+        body {
             background-color: #ffefef;
         }
+
+        /* -------UNIVRSAL CODE------ */
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
             font-family: sans-serif;
         }
+
+        /* ------------------------NAVBAR---------------------------- */
 
         .navbar {
             height: 60px;
@@ -25,15 +31,8 @@
             align-items: center;
         }
 
-        .container {
-            max-width: 1200px;
-            width: 100%;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
+        
+        
         .logo {
             font-size: 30px;
             font-weight: bold;
@@ -73,12 +72,17 @@
             font-size: large;
             font-weight: bold;
         }
-        .hire:hover{
+
+        .hire:hover {
             border: 1px solid #cf2e2e;
             background-color: white;
             color: black;
             transition: 0.20s;
         }
+        /* ------------------------NAVBAR---------------------------- */
+
+
+        /* HEADER ICONS */
 
         .icon-container {
             display: inline-block;
@@ -90,7 +94,8 @@
             font-size: 24px;
             margin-top: 30px;
         }
-
+        
+        /* HEADER MAXIMUX WITH PROERTIES FOR ALIGNMENT */
         .header {
             max-width: 1200px;
             width: 100%;
@@ -107,6 +112,8 @@
             color: rgb(61, 59, 59);
         }
 
+        /* HERADER PARAGRAPH FONT BOLD */
+
         strong {
             font-size: 60px;
             margin-top: 20px;
@@ -121,6 +128,7 @@
             cursor: pointer;
         }
 
+        /* LEARN MORE INSDIE THE HEADER */ 
         .Learn {
             padding: 15px;
             background-color: #cf2e2e;
@@ -130,7 +138,8 @@
             margin-top: 30px;
             margin-left: 165px;
         }
-        .Learn:hover{
+
+        .Learn:hover {
             border: 1px solid #cf2e2e;
             background-color: white;
             color: black;
@@ -150,6 +159,8 @@
             margin-right: 165px;
         }
 
+        /* HEADER IMAGE*/
+
         .object-container img {
             position: absolute;
             top: 50%;
@@ -159,6 +170,7 @@
             height: auto;
         }
 
+        /* ONE STEP AHEAD ITS SHOWS ABOUT CODE */
         .about {
             display: inline-block;
             justify-content: center;
@@ -177,51 +189,212 @@
             border: none;
             border-bottom: 2px solid #cf2e2e;
         }
-        .dis{
+
+        /* ABOUT SECTION PARAGRAPH */
+        .dis {
             text-align: center;
             align-items: center;
             margin-top: 20px;
             font-size: 20px;
         }
-        .text{
+
+        /* MORE FACTS ABOUT ME IN TEXT SECTION */
+        .text {
             margin-left: 165px;
             margin-top: 50px;
             color: rgb(61, 59, 59);
-           
+
         }
-        .text,p,ul,li{
+
+        /* list of biography */
+        .text,
+        p,
+        ul,
+        li {
             font-size: 25px;
         }
-        .FACTS{
+
+        .FACTS {
             font-size: bold;
             font-size: 35px;
             color: #cf2e2e;
         }
-        .info{
+
+        /* ABOUT ME SECTION IMAGE RIGHT HAND */
+        .info {
             height: 250px;
             float: right;
             margin-top: -230px;
             margin-right: 165px;
         }
-        a:hover{
+
+        a:hover {
             color: #cf2e2e;
+        }
+
+        /* .Reviews section boxes */
+
+        .clint {
+            display: inline-flex;
+            height: 100%;
+            width: auto;
+            margin-left: 167px;
+            margin-right: 167px;
+            margin-top: 60px;
+        }
+
+        .one,
+        .two,
+        .three {
+            height: 100%;
+            width: auto;
+            color: rgb(61, 59, 59);
+            ;
+            padding: 20px;
+            border: 1.5px solid #cf2e2e;
+            border-radius: 15px;
+            margin: 10px;
+        }
+
+        .one:hover,
+        .two:hover,
+        .three:hover {
+            background-color: #cf2e2e;
+            color: white;
+            transition: 0.20s;
+            cursor: pointer;
+        }
+
+        .Reviews {
+            align-items: center;
+            justify-content: center;
+            display: inline;
+            font-size: 25px;
+            font-weight: bold;
+            color: #cf2e2e;
+            border: none;
+            border-bottom: 2px solid #cf2e2e;
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
+            margin-top: 70px;
+            margin-left: 50%;
+
+        }
+
+        /* boxes text align center code */
+
+        .ram {
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        /* life story box code */
+
+        .lifestory {
+            width: 100%;
+            background-color: #cf2e2e;
+            margin-top: 50px;
+        }
+
+        .details {
+
+            padding: 20px;
+            color: white;
+            font-size: 20px;
+        }
+
+        /* footer code end of the website */
+
+        footer {
+            background-color: #cf2e2e;
+            color: #fff;
+            padding: 30px 0;
+            margin-top: 100px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+
+        .logo2 {
+            font-size: 30px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .contact {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            margin-right: 50px;
+        }
+
+        .contact span {
+            margin-bottom: 10px;
+        }
+
+        .contact a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .social-icons {
+            display: flex;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .social-icons a {
+            color: #fff;
+            margin-right: 20px;
+            font-size: 20px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .social-icons a:hover {
+            color: #f5a623;
+        }
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
     </style>
 </head>
 
 <boy>
+    <!-- ---------------------------------------------------navbaar--------------------------------------------------------------- -->
     <nav class="navbar">
         <div class="container">
             <a href="#" class="logo">Annu_dev1</a>
             <ul class="menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Reviews</a></li>
                 <li><a href="#">Contact</a></li>
+                <li><a href="#">More</a></li>
             </ul>
             <button class="hire">Hire me</button>
         </div>
     </nav>
+    <!-- ---------------------------------------------------navbaar--------------------------------------------------------------- -->
+    
+
+    <!-- ---------------------------------------------------header--------------------------------------------------------------- -->
     <div class="header">
         <h1><strong>I am a </strong><br>web-devloper</h1>
         <div class="icon-container ">
@@ -234,6 +407,10 @@
     <div class="object-container">
         <img src="IMG20230305133232.png" alt="image description">
     </div>
+
+    <!-----------------------------------------------------Header----------------------------------------------------------------->
+
+    <!-----------------------------------------------------About section----------------------------------------------------------------->
     <div class="about">
         <p class="p1">About me</p>
     </div>
@@ -254,6 +431,114 @@
         </ul>
         <img src="full-stack-web-developer-1024x1024.jpg" class="info">
     </div>
+
+    <!-- ---------------------------------------------------revewies----------------------------------------------------------------->
+    <div class="reviews">
+        <p class="Reviews">Reviews</p>
+        <div class="clint">
+            <div class="one">
+                <p class="ram">Ram singh</p>
+                <p>‘Your portfolio website comes with some significant benefits. <br>It demonstrates your
+                    professionalism and dedication, as well as showcasing your talent.</p>
+            </div>
+
+            <div class="two">
+                <p class="ram">Ram singh</p>
+                <p>‘Your portfolio website comes with some significant benefits. <br>It demonstrates your
+                    professionalism and dedication, as well as showcasing your talent.</p>
+            </div>
+
+            <div class="three">
+                <p class="ram">Ram singh</p>
+                <p>‘Your portfolio website comes with some significant benefits. <br>It demonstrates your
+                    professionalism and dedication, as well as showcasing your talent.</p>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------------------------------revewies--------------------------------------------------------------- -->
+
+
+     <!-- ---------------------------------------------------lifestory--------------------------------------------------------------- -->
+    <div class="lifestory">
+        <div class="details">
+            At the moment, I’m a developer advocate on Google’s Chrome team in Munich, Germany.
+
+            From January 2010 to November 2011, I was part of the team responsible for the web presence of one of the
+            largest daily newspapers in Germany: Sueddeutsche.de. It’s a big site, running on a surprisingly antiquated
+            backend; we work hard to keep things running smoothly, and to meet the high expectations of our users.
+            Generally, we did a pretty good job of it.
+
+            Before Sueddeutsche, I worked for Yahoo! on their equally massive European news sites. My team and I took
+            news.yahoo.com’s solid codebase, and made it localizable for distinct markets and languages: we were
+            directly responsible for building and maintaining Yahoo!’s news sites in the UK, France, Germany, Spain, and
+            Italy, relaunching all five within a year. We laid the foundation for further work that expanded the
+            platform’s scope to include Singapore and beyond. We did good work while understaffed and under pressure,
+            and I’m proud of our accomplishments.
+        </div>
+    </div>
+    <div class="tree">
+        <div class="node">
+            <div class="sub-tree">
+                <div class="node">
+                    <!-- child node content will go here -->
+                </div>
+                <div class="node leaf">
+                    <!-- leaf node content will go here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------------------------------lifestory----------------------------------------------------------------->
+
+
+
+<!-- ---------------------------------------------------another reviwes section--------------------------------------------------------------- -->
+    <div class="reviews">
+        <p class="Reviews">Our partners</p>
+        <div class="clint">
+            <div class="one">
+                <p class="ram">Google</p>
+                <p>‘Your portfolio website comes with some significant benefits. <br>It demonstrates your
+                    professionalism and dedication, as well as showcasing your talent.</p>
+            </div>
+
+            <div class="two">
+                <p class="ram">Amazon</p>
+                <p>‘Your portfolio website comes with some significant benefits. <br>It demonstrates your
+                    professionalism and dedication, as well as showcasing your talent.</p>
+            </div>
+
+            <div class="three">
+                <p class="ram">flipcart</p>
+                <p>‘Your portfolio website comes with some significant benefits. <br>It demonstrates your
+                    professionalism and dedication, as well as showcasing your talent.</p>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------------------------------another reviwes section--------------------------------------------------------------- -->
+
+
+
+    <!-- ---------------------------------------------------footer code--------------------------------------------------------------- -->
+
+    <footer>
+        <div class="container">
+            <div class="logo2">My Website</div>
+            <div class="contact">
+                <span>123 Main Street</span>
+                <span>Anytown, USA 12345</span>
+                <span><a href="tel:555-555-5555">555-555-5555</a></span>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+     <!-- ---------------------------------------------------footer code--------------------------------------------------------------- -->
 
     </body>
 
